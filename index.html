@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>TODO - List</title>
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+ </head>
+ <body>
+
+   <div class="container my-3">
+     <h1>Add Todo:</h1>
+     <!-- here comes the form -->
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="todo" aria-describedby="emailHelp" placeholder="Enter email">
+   
+  </div>
+  <div class="form-group">
+   
+    
+  </div>
+  
+  <button  id = "btn" type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+		
+
+     <h1>Todos:</h1>
+	 <!-- here comes the list of todos -->
+
+		<ul id ="target" class="list-group">
+			
+		</ul>
+
+
+		<li id="template" class="list-group-item justify-content-between align-items-center d-none"> 
+       <span class="title">Cras justo odio</span>  
+		 	<button class="btn btn-outline-danger btn-sm">X</button>       
+		
+		</li>
+   </div>
+   <script src="node_modules/jquery/jquery.min.js" charset="utf-8"></script>
+   <script src="node_modules/popper.js/dist/umd/popper.js" charset="utf-8"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+   <script src="assets/javascript/todo-list.js"></script>
+ </body>
+</html>
